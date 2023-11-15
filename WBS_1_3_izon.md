@@ -1,4 +1,4 @@
-```mermaid
+```mermaid  
 graph LR
 
     eating_ramen(インスタントラーメンを食べる) --> buy_ingredients(食材を買いに行く)
@@ -13,4 +13,5 @@ graph LR
     wait_time --> on_ingredients(食材を上にのせる)
     on_ingredients --> prepare_chopsticks(箸を用意する)
     prepare_chopsticks --> eat_ramen(ラーメンを食べる)
+    
 ```

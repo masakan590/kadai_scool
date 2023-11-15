@@ -1,4 +1,4 @@
-```mermaid
+```mermaid  
 flowchart TD
 
 subgraph "第一段階"
@@ -48,4 +48,5 @@ make_ramen --> on_ingredients
 
 eat_ramen --> wait_ramen
 eat_ramen --> eat_time
+
 ```
