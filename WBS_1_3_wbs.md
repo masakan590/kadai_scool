@@ -1,36 +1,36 @@
 ```mermaid  
-flowchart TD
+    flowchart TD
 
-subgraph "第一段階"
-    eating_ramen[インスタントラーメンを食べる]
-end
+    subgraph "第一段階"
+        eating_ramen[インスタントラーメンを食べる]
+    end
 
-subgraph "第二段階"
-    buy_ingredients[食材を買いに行く
-    手持ち500円]
-    make_ramen[ラーメンを作る]
-    eat_ramen[ラーメンを食べる準備]
-end
+    subgraph "第二段階"
+        buy_ingredients[食材を買いに行く
+        手持ち500円]
+        make_ramen[ラーメンを作る]
+        eat_ramen[ラーメンを食べる準備]
+    end
 
-subgraph "第三段階"
-    buying_ingredients1[スーパーでチャーシューを買う
-    残金370円]
-    buying_ingredients2[スーパーで焼きのりを買う
-    残金250円]
-    buying_ingredients3[スーパーでコーンを買う
-    残金130円]
-    buying_ingredients4[スーパーでねぎを買う
-    残金0円]
+    subgraph "第三段階"
+        buying_ingredients1[スーパーでチャーシューを買う
+        残金370円]
+        buying_ingredients2[スーパーで焼きのりを買う
+        残金250円]
+        buying_ingredients3[スーパーでコーンを買う
+        残金130円]
+        buying_ingredients4[スーパーでねぎを買う
+        残金0円]
 
-    boil_water[お湯を沸かす]
-    boil_ramen[ラーメンをゆでる]
-    wait_time[５分間待つ]
-    on_ingredients[食材を上にのせる]
+        boil_water[お湯を沸かす]
+        boil_ramen[ラーメンをゆでる]
+        wait_time[５分間待つ]
+        on_ingredients[食材を上にのせる]
 
-    wait_ramen[箸を用意する]
-    eat_time[ラーメンを食べる]
+        wait_ramen[箸を用意する]
+        eat_time[ラーメンを食べる]
 
-end
+    end
 
 eating_ramen --> buy_ingredients
 eating_ramen --> make_ramen
