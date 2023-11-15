@@ -1,5 +1,5 @@
 ```mermaid  
-graph LR
+graph LR;
 
  eating_ramen(インスタントラーメンを食べる) --> buy_ingredients(食材を買いに行く)
  buy_ingredients --> buying_ingredients1(スーパーでチャーシューを買う)

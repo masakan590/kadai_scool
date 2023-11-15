@@ -1,5 +1,5 @@
 ```mermaid  
-    flowchart TD
+    flowchart TD;
 
     subgraph "第一段階"
         eating_ramen[インスタントラーメンを食べる]
